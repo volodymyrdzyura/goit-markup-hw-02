@@ -1,8 +1,25 @@
+button {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+button:hover {
+  background: #2196F3;
+}
+button:focus {
+    background: #2196F3;
+}
+.link {
+    color: #212121;
+}
+.link:focus {
+    background: #2196F3;
+}
+.link:hover {
+    background: #2196F3;
+}
 
 
 body 
 {
  font-family: Roboto;   
 }
-    
-a:hover {color: red;}

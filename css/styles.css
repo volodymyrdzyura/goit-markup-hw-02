@@ -1,25 +1,78 @@
-button {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-button:hover {
-  background: #2196F3;
-}
-button:focus {
-    background: #2196F3;
-}
-.link {
-    color: #212121;
-}
-.link:focus {
-    background: #2196F3;
-}
-.link:hover {
-    background: #2196F3;
-}
+/* палітра кольорів сайту*/
+/* text colors*/
+/* основний колір тексту #212121 */
+/* допоміжний колір тексту #757575 */
+/* колір білого тексту #FFFFFF */
+/* колір тексту при hover #2196F3 */
 
+/* backgroundcolors */
+/* absolute white header #FFFFFF  */
+/* title, footer dark #2F303A*/
+/* mine fone color  #E5E5E5 */
+/* team color #F5F4FA */
+
+:root  {
+--primery-texy-color: #212121; 
+--secondary-text-color: #757575;
+--hero-text-color: #FFFFFF;
+--hover-text-color: #2196F3;
+--absolut-white-header: #FFFFFF;
+--title-footer-dark: #2F303A;
+--mine-fone-color: #E5E5E5;
+--team-button-color: #F5F4FA;
+}
 
 body 
 {
- font-family: Roboto;   
+ font-family: Roboto;
+ color: var(--primery-texy-color);
+}
+
+p .list-benefits{
+    color: var(--secondary-text-color);
+}
+
+button {
+    background: var(--team-button-color);
+    border-radius: 4px;
+    cursor: pointer
+}
+button:focus,
+button:hover
+{
+  background: var(--hover-text-color);
+}
+
+.link:focus,
+.link:hover {
+    color: var(--hover-text-color);
+}
+a {
+    text-decoration: none;
+}
+.link {
+    color: var(--primery-texy-color);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+/*оформлення першої частини логотипу*/
+.logo-web {
+   color: var(--hover-text-color);
+}
+/*оформлення тексту навігаційних кнопок*/
+.navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.position, .pr-type {
+color: var(--secondary-text-color);
 }

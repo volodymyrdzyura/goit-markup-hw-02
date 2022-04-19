@@ -14,7 +14,6 @@
 :root  {
 --primery-texy-color: #212121; 
 --secondary-text-color: #757575;
---hero-text-color: #FFFFFF;
 --hover-text-color: #2196F3;
 --absolut-white-header: #FFFFFF;
 --title-footer-dark: #2F303A;
@@ -24,17 +23,26 @@
 
 body 
 {
- font-family: Roboto;
+ font-family: Roboto, sans-serif;
  color: var(--primery-texy-color);
+ background-color: var(--mine-fone-color);
 }
 p .list-benefits{
     color: var(--secondary-text-color);
 }
 button {
+    cursor: pointer;
     background: var(--team-button-color);
-    border-radius: 4px;
-    cursor: pointer
+    ;
 }
+.button {
+    color: var(--absolut-white-header)
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.06em
+        }
+
 button:focus,
 button:hover
 {
@@ -54,7 +62,7 @@ a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 100%;
     letter-spacing: 0.03em;
 }
 /*оформлення першої частини логотипу*/
@@ -65,9 +73,67 @@ a {
 .navigation {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 100%;
     letter-spacing: 0.02em;
 }
-.position, .pr-type {
+.position, .projects-type {
 color: var(--secondary-text-color);
 }
+
+.hero {
+    color: var(--absolut-white-header);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 116%;
+    letter-spacing: 0.06em;
+    }
+
+    .h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;   /*!!!! Множник*/
+        letter-spacing: 0.03em;
+    }
+
+    .h3 {
+        color: var(--secondary-text-color)
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center
+        letter-spacing: 0.03em;
+        }
+
+      .p {
+         color: var(--secondary-text-color)
+           font-weight: 700;
+            font-size: 36px;
+            line-height: 146%;
+            letter-spacing: 0.03em;
+          }
+          .name {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0.03em;
+          }
+          .position {
+              color: var(--secondary-text-color);
+              font-size: 16px;
+              line-height: 100%;
+              letter-spacing: 0.03em
+              }
+
+        .project-name {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 171%;
+            letter-spacing: 0.06em;
+            text-align: left;
+            }
+        .project-type {
+            color:var(--secondary-text-color)
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.03em;
+        }

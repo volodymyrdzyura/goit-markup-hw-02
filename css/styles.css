@@ -27,11 +27,9 @@ body
  font-family: Roboto;
  color: var(--primery-texy-color);
 }
-
 p .list-benefits{
     color: var(--secondary-text-color);
 }
-
 button {
     background: var(--team-button-color);
     border-radius: 4px;
@@ -42,7 +40,6 @@ button:hover
 {
   background: var(--hover-text-color);
 }
-
 .link:focus,
 .link:hover {
     color: var(--hover-text-color);
@@ -53,7 +50,6 @@ a {
 .link {
     color: var(--primery-texy-color);
 }
-
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -72,7 +68,6 @@ a {
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-
 .position, .pr-type {
 color: var(--secondary-text-color);
 }

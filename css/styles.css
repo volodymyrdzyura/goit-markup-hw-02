@@ -59,7 +59,7 @@ color: var(--secondary-text-color);
     color: var(--primery-texy-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.62;
     letter-spacing: 0.06em
     }
 
@@ -79,7 +79,7 @@ button:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.14;
     letter-spacing: 0.02em;}
 
 a {
@@ -112,7 +112,7 @@ a {
 .h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1;   /*!!!! Множник*/
+    line-height: 1.16;   /*!!!! Множник*/
     letter-spacing: 0.03em;
     }
 
@@ -120,7 +120,7 @@ a {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.14;
     text-align: center;
     letter-spacing: 0.03em;
     }
@@ -129,7 +129,7 @@ a {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.46;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     }
 
@@ -141,21 +141,22 @@ a {
 .name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     }
 
 .position {
     color: var(--secondary-text-color);
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.18;
     letter-spacing: 0.03em
     }
 
 .project-name {
-    font-size: 18px;
+    
     font-weight: 700;
-    line-height: 1.71;
+    font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
     text-align: left;
     }
@@ -163,7 +164,7 @@ a {
 .project-type {
     color:var(--secondary-text-color);
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     }
 
@@ -171,7 +172,7 @@ a {
     color: var(--absolut-white-header);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.46;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     }

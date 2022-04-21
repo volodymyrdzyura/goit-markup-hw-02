@@ -59,7 +59,7 @@ color: var(--secondary-text-color);
     color: var(--primery-texy-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 1.6;
     letter-spacing: 0.06em
     }
 
@@ -91,7 +91,7 @@ a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: 0.03em;
     }
 
@@ -105,14 +105,14 @@ a {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 116%;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     }
 
 .h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 100%;   /*!!!! Множник*/
+    line-height: 1;   /*!!!! Множник*/
     letter-spacing: 0.03em;
     }
 
@@ -120,7 +120,7 @@ a {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 100%;
+    line-height: 1;
     text-align: center;
     letter-spacing: 0.03em;
     }
@@ -129,7 +129,7 @@ a {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 146%;
+    line-height: 1.46;
     letter-spacing: 0.03em;
     }
 
@@ -155,7 +155,7 @@ a {
 .project-name {
     font-size: 18px;
     font-weight: 700;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.06em;
     text-align: left;
     }
@@ -163,7 +163,7 @@ a {
 .project-type {
     color:var(--secondary-text-color);
     font-size: 16px;
-    line-height: 160%;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     }
 

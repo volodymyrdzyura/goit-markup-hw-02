@@ -38,8 +38,12 @@ li {
     letter-spacing: 0.02em;
     }
  
-p .list-benefits{
+.list-benefits p{
 color: var(--secondary-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;;
 }
 
 .button-m {
@@ -57,10 +61,11 @@ color: var(--secondary-text-color);
     cursor: pointer;
     background: var(--team-button-color);
     color: var(--primery-texy-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.06em
+    text-align: center;
+    letter-spacing: 0.03em;
     }
 
 button:focus,
@@ -109,22 +114,20 @@ a {
     letter-spacing: 0.06em;
     }
 
-.h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;   /*!!!! Множник*/
+    line-height: 1.16;   
     letter-spacing: 0.03em;
     }
 
-.h3 {
-    color: var(--secondary-text-color);
+.list-benefits h3 {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
+    line-height: 16px;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     }
-
 .p {
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -152,8 +155,7 @@ a {
     letter-spacing: 0.03em
     }
 
-.project-name {
-    
+.projects-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -161,19 +163,29 @@ a {
     text-align: left;
     }
 
-.project-type {
+.projects-type {
     color:var(--secondary-text-color);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     }
 
-.address { 
+.address a{ 
     color: var(--absolut-white-header);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-align: left;
-    }
-       
+}
+.site-contacts {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+a[href="mailto:info@example.com"], 
+a[href="tel:+380991111111"]
+{
+  color: rgba(255, 255, 255, 0.6);}
